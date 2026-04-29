@@ -1,0 +1,26 @@
+.nav-bar {
+    display: flex;
+    padding: 2px 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+
+.nav-izq {
+    display: flex;
+}
+
+.nav-der {
+    display: flex;
+    padding: 5px 10px;
+}
+
+.cont-izq {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cont-der {
+    padding: 5px 10px;
+    cursor: pointer;
+}
