@@ -95,6 +95,8 @@ const App = () => {
                 <p className='tabla-more'>VER TODAS LAS AREAS</p>
             </div>
         </div>
+
+        <div>Hola como estan, esto es una prueba</div>
     </>
     )
 }
