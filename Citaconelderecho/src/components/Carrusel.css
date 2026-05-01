@@ -1,0 +1,62 @@
+.carrusel-ventana {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.carrusel-tira {
+    display: flex;
+    width: 200% !important;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrusel-pagina {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    gap: 16rem;
+}
+
+.carrusel-item {
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrusel-item img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.controles {
+    cursor: pointer;
+    gap: 10px;
+    margin-top: 15px;
+    justify-self: center;
+}
+
+.controles button {
+    cursor: pointer;
+    padding: 5px 15px;
+    background-color: rgb(32, 32, 183);
+    color: white;
+    border-radius: 4px;
+}
+
+.controles button:disabled {
+    background-color: rgb(103, 103, 205);
+    cursor: not-allowed;
+}
+
+
+
+
+
+
+

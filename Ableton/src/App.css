@@ -27,12 +27,18 @@
 }
 
 .imagenes {
-  display: grid;
+  display: flex;
   border: 1px solid black;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .img-izq {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-der {
   display: grid;
   justify-content: center;
   align-items: center;
