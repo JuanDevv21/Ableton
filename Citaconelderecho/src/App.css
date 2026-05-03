@@ -1,9 +1,11 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-
-.hero-section {
+.hero-section { 
     position: relative;
     width: 100%;
-    height: 60vh; /* La mitad de la pantalla como pediste */
+    height: 60vh;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('./assets/Fondo.png'); 
     background-size: contain;
     background-position: center;
@@ -109,7 +111,7 @@
 
 .exp-izq1 {
     font-size: 24px;
-    color: #8b6423;
+    color: #f1a900;
 }
 
 .exp-izq2 {
@@ -132,7 +134,7 @@
 
 .exp-sub {
     font-size: 19px;
-    color: #8b6423;
+    color: #f1a900;
 }
 
 .exp-izq-32 {
@@ -199,4 +201,151 @@
     font-size: 18px;
     justify-self: center;
     margin-left: 10px;
+}
+
+.resenas {
+    margin-top: 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.resenas p {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.res {
+    width: 100%;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.section-3-izq {
+    width: 500px;
+    margin-right: 10px;
+}
+
+.section-3-izq p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.section-3-izq span {
+    color: rgb(99, 99, 99);
+}
+
+.section-3-izq li {
+    color: #f1a900;
+}
+
+.section-3-der {
+    width: 500px;
+    margin-left: 10px;
+}
+
+.section-4-up {
+    border: 1px solid #5A5A5A;
+    background-color: #5A5A5A;
+    margin-top: 90px;
+}
+
+.section-4-up h3 {
+    font-size: 19px;
+    color: #f1a900;
+    margin-left: 400px;
+}
+
+.section-4-up h2 {
+    font-size: 40px;
+    margin-left: 400px;
+    color: white;
+}
+
+.section-4-down {
+    display: flex;
+    justify-content: center;
+    background-color: #5A5A5A;
+    height: 500px;
+}
+
+.section-4-down1 {
+    width: 450px;
+    margin-right: 200px;
+}
+
+.bloq p {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+}
+
+.bloq span {
+    font-size: 16px;
+    color: white;
+}
+
+.section-4-down2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.bloques {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.bl {
+    width: 225px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(70, 69, 69);
+}
+
+.bl:hover {
+    background-color: #746f6f;
+}
+
+.bl p {
+    font-size: 32px;
+}
+
+.bl span {
+    color: #f1a900;
+    font-size: 20px;
+}
+
+.section-5 {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5 p {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.section-5 button {
+    background-color: rgb(98, 146, 27);
+    border-radius: 25px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100px;
 }

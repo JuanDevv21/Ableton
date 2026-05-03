@@ -1,12 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import Fondo from './assets/Fondo.png'
 import './App.css'
 import Navbar from './components/Navbar'
 import Carrusel from "./components/Carrusel"
 import Img1 from "./assets/Img1.png"
 import Mapa from "./assets/Mapa.png"
+import RamaJudicial from "./assets/RamaJudicial.png"
+import MapaSeccion from './components/MapaSeccion'
 
 const App = () => {
 
@@ -95,8 +94,90 @@ const App = () => {
                 <p className='tabla-more'>VER TODAS LAS AREAS</p>
             </div>
         </div>
+        <div className='resenas'>
+            <div className='res'>
+                <script src="https://elfsightcdn.com/platform.js" async></script>
+                <div className="elfsight-app-b445ebe4-134b-4cb0-abe7-6423cbd1d27d" data-elfsight-app-lazy></div>
+            </div>
+        </div>
 
-        <div>Hola como estan, esto es una prueba</div>
+        <div className='section-3'>
+            <div className='section-3-izq'>
+                <p>Quedate seguro, somos profesionales</p>
+                <span>Nuestra empresa tiene mas de 15 años de trayectoria atendiendo clientes a nivel local e internacional, mas de 2.500 usuarios felices, y un red de 40 abogados especializados, en toda Colombia, conoce todo lo que podemos hacer por ti.</span>
+                <ul>
+                    <li>Abogados expertos en migracion</li>
+                    <li>Expertos en derecho internacional</li>
+                    <li>Abogados expertos en familia</li>
+                    <li>Abogados expertos en demandas de alimentos</li>
+                    <li>Abogados expertos en Divorcios </li>
+                    <li>Abogados expertos en Herencias</li>
+                    <li>Abogados en derecho penal</li>
+                    <li>Abogados expertos en control de garantias</li>
+                    <li>Expertos en registro de marca</li>
+                    <li>Abogados expertos en derecho administrativo</li>
+                    <li>Abogados expertos en contabilidad</li>
+                    <li>Abogados expertos en empresas</li>
+                </ul>
+            </div>
+            <div className='section-3-der'>
+                <img src={RamaJudicial}></img>
+            </div>
+        </div>
+        <div className='section-4'>
+                <div className='section-4-up'>
+                    <h3>Mas de 15 firmas en 4 departamentos y mas de 40 abogados en linea en todo Colombia</h3>
+                    <h2>¿Por qué elegirnos?</h2>
+                </div>
+                <div className='section-4-down'>
+                    <div className='section-4-down1'>
+                        <div className='bloq'>
+                            <p>Proyecto humanizado</p>
+                            <span>Comprendemos tu historia, te hablamos con honestidad y claridad en los procesos, atencion inmediata</span>
+                        </div>
+                        <div className='bloq'>
+                            <p>Excelente desempeño</p>
+                            <span>Respaldo y proteccion de una respetable firma juridica con buena reputacion ante el tribunal</span>
+                        </div>
+                        <div className='bloq'>
+                            <p>Tarifas transparentes</p>
+                            <span>Manejamos la mejor tarifa del mercado, si no te gusta lo que hacemos te devolvemos tu dinero</span>
+                        </div>
+                    </div>
+                    <div className='section-4-down2'>
+                        <div className='bloques'>
+                            <div className='bl'>
+                                <p>2500+</p>
+                                <span>Asesorias legales</span>
+                            </div>
+                            <div className='bl'>
+                                <p>96%</p>
+                                <span>Casos exitosos</span>
+                            </div>
+                        </div>
+                        <div className='bloques'>
+                            <div className='bl'>
+                                <p>40+</p>
+                                <span>Abogados profesionales</span>
+                            </div>
+                            <div className='bl'>
+                                <p>100%</p>
+                                <span>Usuarios felices</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div className='section-5'>
+            <p>Contactanos 24/7</p>
+            <p>+57 318 633 7969</p>
+            <p>Atencion al cliente</p>
+            <button>Whatsapp</button>
+
+        </div>
+        <div>
+            <MapaSeccion></MapaSeccion>
+        </div>
     </>
     )
 }
